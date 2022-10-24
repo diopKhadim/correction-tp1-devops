@@ -26,8 +26,6 @@ jobs:
       run: mvn clean verify --file ./simple-api/pom.xml
     
 build-and-push-docker-image:
-
-
   # steps to perform in job
   steps:
    - name: Checkout code
