@@ -1,5 +1,5 @@
 # Build
-FROM maven:3.6.3-jdk-11 AS myapp-build
+FROM maven:3.8.4-jdk-11 AS myapp-build
 ENV MYAPP_HOME /opt/myapp
 WORKDIR $MYAPP_HOME
 COPY pom.xml .
